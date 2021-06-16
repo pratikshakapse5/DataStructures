@@ -2,6 +2,7 @@
 //Iteratively search in the binary search tree
 //meaning: keys or values in the nodes are all sorted
 //Search space reduces to half Time complexity: O(logn)
+//Space complexity : O(height) worst case O(n)
 
 int search(Node* root, int key)
 {
